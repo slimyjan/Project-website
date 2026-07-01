@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Main hub</title>
+    <title>Welcome to the website</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -14,42 +14,53 @@
                 <li><a href="Contact">Contact</a></li>
             </ul>
         </nav>
-
-        <header>
-            <div class="context001">
-                <h1>Welcome to my website</h1>
-                <p>My very first website</p>
-            </div>
-        </header>
+        <div class="row">
+            <header>
+                <div class="context001">
+                    <h1>Welcome to my website</h1>
+                    <p class="subheading">My very first website</p>
+                    <button>Go to the main menu</button>
+                </div>
+            </header>
+        </div>
     </section>
     
     <main>
         <section id="about">
             <h2>About</h2>
-            <div>
-                <p>
-                This website is at a very early state (infomation would be here)
-                </p>
-                <p>
-                This website is at a very early state (infomation would be here)
-                </p>
+            <div class="row">
+                <div class="description001">
+                    <div>
+                        <p class="desctext001">
+                        This website is at a very early state (infomation would be here)
+                        </p>
+                        <p class="desctext001">
+                        This website is at a very early state (infomation would be here)
+                        </p>
+                    </div>
+                </div>
             </div>
             <figure>
                 <img src"#" alt"">
             </figure>
         </section>
 
-        <section>
+        <section id="contact">
             <h2>Contact</h2>
             <form action="">
-                <span>email</span>
-                <input type="text" placeholder="Testlet@example.com">
+                <span>Email</span>
+                <input type="email" placeholder="Testlet@example.com">
                 <span>Message</span>
                 <textarea type="text" placeholder="type your message here"></textarea>
-                <input type="submit">
+                <button>Contact me</button>
             </form>
         </section>
     </main>
+    <footer>
+        <div class="footerlinks">
+            <li><a class="footerlink" href="about">About</a></li>
+            <li><a class="footerlink" href="Contact">Contact</a></li>
+        </div>
+    </footer>
 </body>
-
 </html>

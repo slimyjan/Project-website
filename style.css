@@ -1,4 +1,144 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: greenyellow;
+}
+/*
+
+Header
+
+*/
+header {
+    background-color: darkgreen;
+    height: calc(100vh - 70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 72px;
+}
+
+.subheading {
+font-size:  36px;
+margin: 16px 0 24px 0;
+}
+
+button {
+    background-color: lime;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 16px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about,
+#contact,
+#footer {
+    padding: 40px 0;
+}
+/*
+
+About
+
+*/
+#about {
+    padding:  40px 0;
+    background-color: darkgoldenrod;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.description001 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desctext001 {
+    font-size:  20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+/*
+
+Contact
+
+*/
+#contact {
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+/*
+
+footer
+
+*/
+footer {
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerlinks {
+    margin-bottom: 32px;
+}
+
+.footerlink {
+    padding: 0 16px;
 }
